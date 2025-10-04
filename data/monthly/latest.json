@@ -1,0 +1,125 @@
+{
+  "date": "2025-10-04",
+  "period": "monthly",
+  "count": 17,
+  "repositories": [
+    {
+      "url": "https://github.com/twitter/the-algorithm",
+      "name": "twitter / the-algorithm",
+      "description": "Source code for the X Recommendation Algorithm",
+      "language": "Scala",
+      "stars_today": "3,997 stars this month"
+    },
+    {
+      "url": "https://github.com/Alibaba-NLP/DeepResearch",
+      "name": "Alibaba-NLP / DeepResearch",
+      "description": "Tongyi Deep Research, the Leading Open-source Deep Research Agent",
+      "language": "Python",
+      "stars_today": "9,054 stars this month"
+    },
+    {
+      "url": "https://github.com/Physical-Intelligence/openpi",
+      "name": "Physical-Intelligence / openpi",
+      "language": "Python",
+      "stars_today": "3,625 stars this month"
+    },
+    {
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "name": "harry0703 / MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "language": "Python",
+      "stars_today": "6,116 stars this month"
+    },
+    {
+      "url": "https://github.com/humanlayer/humanlayer",
+      "name": "humanlayer / humanlayer",
+      "description": "The best way to get AI coding agents to solve hard problems in complex codebases.",
+      "language": "TypeScript",
+      "stars_today": "3,406 stars this month"
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/registry",
+      "name": "modelcontextprotocol / registry",
+      "description": "A community driven registry service for Model Context Protocol (MCP) servers.",
+      "language": "Go",
+      "stars_today": "3,312 stars this month"
+    },
+    {
+      "url": "https://github.com/openai/codex",
+      "name": "openai / codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "stars_today": "7,762 stars this month"
+    },
+    {
+      "url": "https://github.com/dataease/SQLBot",
+      "name": "dataease / SQLBot",
+      "description": "🔥 基于大模型和 RAG 的智能问数系统。Text-to-SQL Generation via LLMs using RAG.",
+      "language": "Python",
+      "stars_today": "2,352 stars this month"
+    },
+    {
+      "url": "https://github.com/bytebot-ai/bytebot",
+      "name": "bytebot-ai / bytebot",
+      "description": "Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment.",
+      "language": "TypeScript",
+      "stars_today": "4,485 stars this month"
+    },
+    {
+      "url": "https://github.com/CorentinJ/Real-Time-Voice-Cloning",
+      "name": "CorentinJ / Real-Time-Voice-Cloning",
+      "description": "Clone a voice in 5 seconds to generate arbitrary speech in real-time",
+      "language": "Python",
+      "stars_today": "3,009 stars this month"
+    },
+    {
+      "url": "https://github.com/coinbase/x402",
+      "name": "coinbase / x402",
+      "description": "A payments protocol for the internet. Built on HTTP.",
+      "language": "TypeScript",
+      "stars_today": "1,039 stars this month"
+    },
+    {
+      "url": "https://github.com/ItzCrazyKns/Perplexica",
+      "name": "ItzCrazyKns / Perplexica",
+      "description": "Perplexica is an AI-powered search engine. It is an Open source alternative to Perplexity AI",
+      "language": "TypeScript",
+      "stars_today": "2,468 stars this month"
+    },
+    {
+      "url": "https://github.com/uutils/coreutils",
+      "name": "uutils / coreutils",
+      "description": "Cross-platform Rust rewrite of the GNU coreutils",
+      "language": "Rust",
+      "stars_today": "765 stars this month"
+    },
+    {
+      "url": "https://github.com/firebase/genkit",
+      "name": "firebase / genkit",
+      "description": "Open-source framework for building AI-powered apps in JavaScript, Go, and Python, built and used in production by Google",
+      "language": "TypeScript",
+      "stars_today": "1,513 stars this month"
+    },
+    {
+      "url": "https://github.com/gin-gonic/gin",
+      "name": "gin-gonic / gin",
+      "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
+      "language": "Go",
+      "stars_today": "2,535 stars this month"
+    },
+    {
+      "url": "https://github.com/HKUDS/AutoAgent",
+      "name": "HKUDS / AutoAgent",
+      "description": "\"AutoAgent: Fully-Automated and Zero-Code LLM Agent Framework\"",
+      "language": "Python",
+      "stars_today": "1,505 stars this month"
+    },
+    {
+      "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "name": "Stirling-Tools / Stirling-PDF",
+      "description": "#1 Locally hosted web application that allows you to perform various operations on PDF files",
+      "language": "Java",
+      "stars_today": "3,390 stars this month"
+    }
+  ]
+}
