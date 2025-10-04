@@ -1,0 +1,147 @@
+{
+  "date": "2025-10-04",
+  "period": "weekly",
+  "count": 20,
+  "repositories": [
+    {
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "name": "harry0703 / MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "language": "Python",
+      "stars_today": "5,525 stars this week"
+    },
+    {
+      "url": "https://github.com/tile-ai/tilelang",
+      "name": "tile-ai / tilelang",
+      "description": "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
+      "language": "C++",
+      "stars_today": "1,414 stars this week"
+    },
+    {
+      "url": "https://github.com/humanlayer/humanlayer",
+      "name": "humanlayer / humanlayer",
+      "description": "The best way to get AI coding agents to solve hard problems in complex codebases.",
+      "language": "TypeScript",
+      "stars_today": "2,339 stars this week"
+    },
+    {
+      "url": "https://github.com/nextcloud/server",
+      "name": "nextcloud / server",
+      "description": "☁️ Nextcloud server, a safe home for all your data",
+      "language": "PHP",
+      "stars_today": "1,739 stars this week"
+    },
+    {
+      "url": "https://github.com/Done-0/fuck-u-code",
+      "name": "Done-0 / fuck-u-code",
+      "description": "Legacy-Mess Detector – assess the “legacy-mess level” of your code and output a beautiful report | 屎山代码检测器，评估代码的“屎山等级”并输出美观的报告",
+      "language": "Go",
+      "stars_today": "1,135 stars this week"
+    },
+    {
+      "url": "https://github.com/oauth2-proxy/oauth2-proxy",
+      "name": "oauth2-proxy / oauth2-proxy",
+      "description": "A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.",
+      "language": "Go",
+      "stars_today": "686 stars this week"
+    },
+    {
+      "url": "https://github.com/imputnet/helium",
+      "name": "imputnet / helium",
+      "description": "Private, fast, and honest web browser",
+      "language": "Python",
+      "stars_today": "1,136 stars this week"
+    },
+    {
+      "url": "https://github.com/ZuodaoTech/everyone-can-use-english",
+      "name": "ZuodaoTech / everyone-can-use-english",
+      "description": "人人都能用英语",
+      "language": "TypeScript",
+      "stars_today": "1,281 stars this week"
+    },
+    {
+      "url": "https://github.com/TanStack/router",
+      "name": "TanStack / router",
+      "description": "🤖 Fully typesafe Router for React (and friends) w/ built-in caching, 1st class search-param APIs, client-side cache integration and isomorphic rendering.",
+      "language": "TypeScript",
+      "stars_today": "214 stars this week"
+    },
+    {
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "name": "onyx-dot-app / onyx",
+      "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+      "language": "Python",
+      "stars_today": "1,308 stars this week"
+    },
+    {
+      "url": "https://github.com/commaai/openpilot",
+      "name": "commaai / openpilot",
+      "description": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
+      "language": "Python",
+      "stars_today": "2,102 stars this week"
+    },
+    {
+      "url": "https://github.com/HKUDS/RAG-Anything",
+      "name": "HKUDS / RAG-Anything",
+      "description": "\"RAG-Anything: All-in-One RAG Framework\"",
+      "language": "Python",
+      "stars_today": "1,812 stars this week"
+    },
+    {
+      "url": "https://github.com/kamranahmedse/developer-roadmap",
+      "name": "kamranahmedse / developer-roadmap",
+      "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+      "language": "TypeScript",
+      "stars_today": "2,017 stars this week"
+    },
+    {
+      "url": "https://github.com/public-apis/public-apis",
+      "name": "public-apis / public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "stars_today": "1,023 stars this week"
+    },
+    {
+      "url": "https://github.com/directus/directus",
+      "name": "directus / directus",
+      "description": "The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.",
+      "language": "TypeScript",
+      "stars_today": "385 stars this week"
+    },
+    {
+      "url": "https://github.com/coinbase/x402",
+      "name": "coinbase / x402",
+      "description": "A payments protocol for the internet. Built on HTTP.",
+      "language": "TypeScript",
+      "stars_today": "475 stars this week"
+    },
+    {
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "name": "yt-dlp / yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "language": "Python",
+      "stars_today": "1,460 stars this week"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "name": "anthropics / claude-cookbooks",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "language": "Jupyter Notebook",
+      "stars_today": "250 stars this week"
+    },
+    {
+      "url": "https://github.com/ollama/ollama-python",
+      "name": "ollama / ollama-python",
+      "description": "Ollama Python library",
+      "language": "Python",
+      "stars_today": "78 stars this week"
+    },
+    {
+      "url": "https://github.com/hacksider/Deep-Live-Cam",
+      "name": "hacksider / Deep-Live-Cam",
+      "description": "real time face swap and one-click video deepfake with only a single image",
+      "language": "Python",
+      "stars_today": "392 stars this week"
+    }
+  ]
+}
