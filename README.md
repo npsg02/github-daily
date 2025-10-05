@@ -1,18 +1,22 @@
 # 🔥 GitHub Trending Daily
 
-Automatically crawl and archive GitHub trending repositories daily, weekly, and monthly. View the trending projects on a beautiful, searchable website.
+Automatically crawl and archive GitHub trending repositories daily, weekly, and monthly. View the trending projects on a beautiful, SEO-optimized Next.js website.
 
 ## Features
 
 - 🤖 **Automated Crawling**: GitHub Actions workflow runs daily to fetch trending repositories
 - 📊 **Multiple Periods**: Track daily, weekly, and monthly trending projects
 - 🔍 **Search & Filter**: Search repositories by name/description and filter by programming language
-- 🎨 **Clean UI**: Modern, responsive design for browsing trending projects
+- 🎨 **Modern UI**: Built with Next.js and Tailwind CSS for optimal performance
+- 🚀 **SEO Optimized**: Metadata, Open Graph tags, and semantic HTML for better discoverability
 - 📦 **Data Archive**: Historical data stored as JSON files in the repository
+- ⚡ **Static Export**: Fast, reliable deployment on GitHub Pages
 
 ## Live Website
 
-Visit the website to explore trending GitHub projects: [https://npsg02.github.io/github-daily/website/](https://npsg02.github.io/github-daily/website/)
+Visit the website to explore trending GitHub projects: [https://npsg02.github.io/github-daily/](https://npsg02.github.io/github-daily/)
+
+![GitHub Trending Daily Homepage](https://github.com/user-attachments/assets/7bbeaa09-a191-478d-80b7-10e1cd88bf8e)
 
 ## How It Works
 
@@ -26,11 +30,17 @@ Visit the website to explore trending GitHub projects: [https://npsg02.github.io
    - Parses HTML to extract repository information
    - Saves data as JSON files with timestamps
 
-3. **Static Website** (`website/`):
-   - Pure HTML/CSS/JavaScript (no build step required)
-   - Loads data from JSON files
-   - Provides search and filtering capabilities
+3. **Next.js Website**:
+   - Built with Next.js 15 and Tailwind CSS
+   - Server-side rendering with static export for optimal performance
+   - SEO optimized with metadata and Open Graph tags
    - Responsive design for mobile and desktop
+   - Real-time search and filtering capabilities
+
+4. **CI/CD Pipeline** (`.github/workflows/pages.yml`):
+   - Automatically builds and deploys the Next.js site on every push
+   - Copies data directory to the build output
+   - Deploys to GitHub Pages
 
 ## Data Structure
 
@@ -77,15 +87,23 @@ chmod +x scripts/crawl_trending.py
 python3 scripts/crawl_trending.py
 ```
 
-### Viewing the Website Locally
+### Running the Next.js Website Locally
 
 ```bash
-# Serve the website directory
-cd website
-python3 -m http.server 8000
+# Install dependencies
+npm install
 
-# Open http://localhost:8000 in your browser
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm start
 ```
+
+The development server will be available at `http://localhost:3000`.
 
 ## Manual Workflow Trigger
 
@@ -98,8 +116,10 @@ You can manually trigger the crawling workflow:
 ## Technologies Used
 
 - **Python 3**: Web crawling with standard library (urllib, HTMLParser)
+- **Next.js 15**: React framework for production
+- **Tailwind CSS**: Utility-first CSS framework
+- **TypeScript**: Type-safe JavaScript
 - **GitHub Actions**: CI/CD automation
-- **HTML/CSS/JavaScript**: Frontend website
 - **GitHub Pages**: Website hosting
 
 ## Contributing
