@@ -13,8 +13,8 @@ To make the website publicly accessible:
    - **Source**: Select "GitHub Actions"
 5. Click **Save**
 
-The Pages workflow will automatically deploy your site. After a few minutes, your website will be live at:
-**https://npsg02.github.io/github-daily/website/**
+The Pages workflow will automatically build the Next.js site and deploy it. After a few minutes, your website will be live at:
+**https://npsg02.github.io/github-daily/**
 
 ## Step 2: Verify the Crawl Workflow
 
@@ -48,11 +48,14 @@ python3 scripts/crawl_trending.py
 ### Test the Website Locally
 
 ```bash
-# Start a local web server from the repository root
-python3 -m http.server 8000
+# Install dependencies
+npm install
+
+# Run the Next.js development server
+npm run dev
 
 # Open your browser to:
-# http://localhost:8000/website/
+# http://localhost:3000
 ```
 
 ## Troubleshooting
