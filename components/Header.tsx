@@ -11,10 +11,10 @@ export default function Header() {
         <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fadeInUp">
           🔥 GitHub Trending Projects
         </h1>
-        <p className="text-xl md:text-2xl opacity-95 font-light animate-fadeInUp" style={{ animationDelay: '0.1s' }}>
+        <p className="text-xl md:text-2xl opacity-95 font-light animate-fadeInUp animation-delay-100">
           Discover the hottest repositories on GitHub
         </p>
-        <div className="mt-6 flex justify-center gap-2 animate-fadeInUp" style={{ animationDelay: '0.2s' }}>
+        <div className="mt-6 flex justify-center gap-2 animate-fadeInUp animation-delay-200">
           <span className="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-medium">
             Updated Daily
           </span>

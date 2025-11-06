@@ -13,7 +13,7 @@ export default function RepositoryList({ repositories, loading, error }: Reposit
       <div className="flex flex-col items-center justify-center py-24 text-[#586069]">
         <div className="relative">
           <div className="w-16 h-16 border-4 border-[#e1e4e8] border-t-[#667eea] rounded-full animate-spin"></div>
-          <div className="absolute inset-0 w-16 h-16 border-4 border-transparent border-t-[#764ba2] rounded-full animate-spin" style={{ animationDirection: 'reverse', animationDuration: '1.5s' }}></div>
+          <div className="absolute inset-0 w-16 h-16 border-4 border-transparent border-t-[#764ba2] rounded-full animate-spin animation-reverse animation-duration-1500"></div>
         </div>
         <p className="mt-6 text-lg font-medium">Loading trending repositories...</p>
         <p className="text-sm text-gray-400 mt-2">This won&apos;t take long ✨</p>

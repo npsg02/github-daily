@@ -35,6 +35,32 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  
+  /* Line clamp utilities */
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  /* Animation delay utilities */
+  .animation-delay-100 {
+    animation-delay: 0.1s;
+  }
+  
+  .animation-delay-200 {
+    animation-delay: 0.2s;
+  }
+  
+  /* Animation direction utilities */
+  .animation-reverse {
+    animation-direction: reverse;
+  }
+  
+  .animation-duration-1500 {
+    animation-duration: 1.5s;
+  }
 }
 
 /* Smooth scrolling */
