@@ -24,7 +24,9 @@ export default function TrendingPage() {
     setError(false);
 
     try {
-      const response = await fetch(`/data/${currentPeriod}/latest.json`);
+      // Use basePath for production GitHub Pages deployment
+      const basePath = process.env.NODE_ENV === 'production' ? '/github-daily' : '';
+      const response = await fetch(`${basePath}/data/${currentPeriod}/latest.json`);
       
       if (!response.ok) {
         throw new Error('Failed to fetch data');

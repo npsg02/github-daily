@@ -18,37 +18,37 @@ export default function Controls({
   languages,
 }: ControlsProps) {
   return (
-    <div className="flex flex-wrap gap-4 mb-8 p-6 bg-white rounded-lg shadow-sm">
+    <div className="flex flex-wrap gap-4 mb-8 p-6 bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg border border-white/20">
       <div className="flex gap-2">
         <button
           onClick={() => onPeriodChange('daily')}
-          className={`px-5 py-2.5 rounded-md font-medium text-[15px] transition-all border-2 ${
+          className={`px-6 py-3 rounded-xl font-semibold text-[15px] transition-all duration-300 border-2 transform hover:scale-105 ${
             currentPeriod === 'daily'
-              ? 'bg-[#0366d6] text-white border-[#0366d6]'
-              : 'bg-white text-gray-700 border-[#e1e4e8] hover:border-[#0366d6] hover:text-[#0366d6]'
+              ? 'bg-gradient-to-r from-[#667eea] to-[#764ba2] text-white border-transparent shadow-lg'
+              : 'bg-white text-gray-700 border-[#e1e4e8] hover:border-[#667eea] hover:text-[#667eea] hover:shadow-md'
           }`}
         >
-          Daily
+          📅 Daily
         </button>
         <button
           onClick={() => onPeriodChange('weekly')}
-          className={`px-5 py-2.5 rounded-md font-medium text-[15px] transition-all border-2 ${
+          className={`px-6 py-3 rounded-xl font-semibold text-[15px] transition-all duration-300 border-2 transform hover:scale-105 ${
             currentPeriod === 'weekly'
-              ? 'bg-[#0366d6] text-white border-[#0366d6]'
-              : 'bg-white text-gray-700 border-[#e1e4e8] hover:border-[#0366d6] hover:text-[#0366d6]'
+              ? 'bg-gradient-to-r from-[#667eea] to-[#764ba2] text-white border-transparent shadow-lg'
+              : 'bg-white text-gray-700 border-[#e1e4e8] hover:border-[#667eea] hover:text-[#667eea] hover:shadow-md'
           }`}
         >
-          Weekly
+          📊 Weekly
         </button>
         <button
           onClick={() => onPeriodChange('monthly')}
-          className={`px-5 py-2.5 rounded-md font-medium text-[15px] transition-all border-2 ${
+          className={`px-6 py-3 rounded-xl font-semibold text-[15px] transition-all duration-300 border-2 transform hover:scale-105 ${
             currentPeriod === 'monthly'
-              ? 'bg-[#0366d6] text-white border-[#0366d6]'
-              : 'bg-white text-gray-700 border-[#e1e4e8] hover:border-[#0366d6] hover:text-[#0366d6]'
+              ? 'bg-gradient-to-r from-[#667eea] to-[#764ba2] text-white border-transparent shadow-lg'
+              : 'bg-white text-gray-700 border-[#e1e4e8] hover:border-[#667eea] hover:text-[#667eea] hover:shadow-md'
           }`}
         >
-          Monthly
+          📈 Monthly
         </button>
       </div>
       
@@ -57,8 +57,8 @@ export default function Controls({
           type="text"
           value={searchTerm}
           onChange={(e) => onSearchChange(e.target.value)}
-          placeholder="Search repositories..."
-          className="w-full px-4 py-2.5 border-2 border-[#e1e4e8] rounded-md text-[15px] focus:outline-none focus:border-[#0366d6]"
+          placeholder="🔍 Search repositories..."
+          className="w-full px-5 py-3 border-2 border-[#e1e4e8] rounded-xl text-[15px] focus:outline-none focus:border-[#667eea] focus:ring-2 focus:ring-[#667eea]/20 transition-all duration-300 bg-white"
         />
       </div>
       
@@ -66,9 +66,9 @@ export default function Controls({
         <select
           value={selectedLanguage}
           onChange={(e) => onLanguageChange(e.target.value)}
-          className="w-full px-4 py-2.5 border-2 border-[#e1e4e8] rounded-md text-[15px] focus:outline-none focus:border-[#0366d6] bg-white"
+          className="w-full px-5 py-3 border-2 border-[#e1e4e8] rounded-xl text-[15px] focus:outline-none focus:border-[#667eea] focus:ring-2 focus:ring-[#667eea]/20 transition-all duration-300 bg-white cursor-pointer"
         >
-          <option value="">All Languages</option>
+          <option value="">🌐 All Languages</option>
           {languages.map((lang) => (
             <option key={lang} value={lang}>
               {lang}
