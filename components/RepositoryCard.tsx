@@ -34,38 +34,39 @@ export default function RepositoryCard({ repository }: RepositoryCardProps) {
   const languageColor = getLanguageColor(repository.language);
 
   return (
-    <div className="bg-white p-6 rounded-lg border border-[#e1e4e8] hover:shadow-md transition-shadow">
+    <div className="bg-white p-6 rounded-xl border border-[#e1e4e8] hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group animate-fadeInUp">
       <div className="mb-3">
         <a
           href={repository.url || '#'}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-xl font-semibold text-[#0366d6] hover:underline"
+          className="text-xl font-bold text-[#0366d6] hover:text-[#0256c7] transition-colors duration-200 group-hover:underline decoration-2 underline-offset-4"
         >
           {repository.name || 'Unknown'}
         </a>
       </div>
       
       {repository.description && (
-        <p className="text-[#586069] mb-4 leading-relaxed">
+        <p className="text-[#586069] mb-4 leading-relaxed line-clamp-3">
           {repository.description}
         </p>
       )}
       
       <div className="flex flex-wrap gap-4 items-center text-sm text-[#586069]">
         {repository.language && (
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 px-3 py-1 bg-gray-50 rounded-full transition-colors duration-200 hover:bg-gray-100">
             <span
-              className="w-3 h-3 rounded-full"
+              className="w-3 h-3 rounded-full shadow-sm"
               style={{ backgroundColor: languageColor }}
             ></span>
-            <span>{repository.language}</span>
+            <span className="font-medium">{repository.language}</span>
           </div>
         )}
         
         {repository.stars_today && (
-          <div className="flex items-center gap-1 text-[#28a745] font-medium">
-            ⭐ {repository.stars_today} stars today
+          <div className="flex items-center gap-1.5 text-[#28a745] font-semibold px-3 py-1 bg-green-50 rounded-full">
+            <span className="text-base">⭐</span>
+            <span>{repository.stars_today} stars today</span>
           </div>
         )}
       </div>

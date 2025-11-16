@@ -24,7 +24,7 @@ class TrendingApp {
         
         // Search input
         const searchInput = document.getElementById('searchInput');
-        searchInput.addEventListener('input', (e) => {
+        searchInput.addEventListener('input', () => {
             this.filterRepositories();
         });
         
