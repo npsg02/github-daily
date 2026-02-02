@@ -1,91 +1,84 @@
 {
-  "date": "2026-02-01",
+  "date": "2026-02-02",
   "period": "daily",
-  "count": 12,
+  "count": 11,
   "repositories": [
+    {
+      "url": "https://github.com/openclaw/openclaw",
+      "name": "openclaw / openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "language": "TypeScript",
+      "stars_today": "10,794 stars today"
+    },
     {
       "url": "https://github.com/ThePrimeagen/99",
       "name": "ThePrimeagen / 99",
       "description": "Neovim AI agent done right",
       "language": "Lua",
-      "stars_today": "542 stars today"
+      "stars_today": "781 stars today"
     },
     {
-      "url": "https://github.com/microsoft/BitNet",
-      "name": "microsoft / BitNet",
-      "description": "Official inference framework for 1-bit LLMs",
+      "url": "https://github.com/pedramamini/Maestro",
+      "name": "pedramamini / Maestro",
+      "description": "Agent Orchestration Command Center",
+      "language": "TypeScript",
+      "stars_today": "49 stars today"
+    },
+    {
+      "url": "https://github.com/kovidgoyal/calibre",
+      "name": "kovidgoyal / calibre",
+      "description": "The official source code repository for the calibre ebook manager",
       "language": "Python",
-      "stars_today": "137 stars today"
+      "stars_today": "37 stars today"
+    },
+    {
+      "url": "https://github.com/badlogic/pi-mono",
+      "name": "badlogic / pi-mono",
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+      "language": "TypeScript",
+      "stars_today": "613 stars today"
+    },
+    {
+      "url": "https://github.com/thedotmack/claude-mem",
+      "name": "thedotmack / claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "language": "TypeScript",
+      "stars_today": "196 stars today"
     },
     {
       "url": "https://github.com/microsoft/agent-lightning",
       "name": "microsoft / agent-lightning",
       "description": "The absolute trainer to light up AI agents.",
       "language": "Python",
-      "stars_today": "516 stars today"
+      "stars_today": "406 stars today"
     },
     {
-      "url": "https://github.com/PaddlePaddle/PaddleOCR",
-      "name": "PaddlePaddle / PaddleOCR",
-      "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+      "url": "https://github.com/amantus-ai/vibetunnel",
+      "name": "amantus-ai / vibetunnel",
+      "description": "Turn any browser into your terminal & command your agents on the go.",
+      "language": "TypeScript",
+      "stars_today": "43 stars today"
+    },
+    {
+      "url": "https://github.com/steipete/CodexBar",
+      "name": "steipete / CodexBar",
+      "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
+      "language": "Swift",
+      "stars_today": "99 stars today"
+    },
+    {
+      "url": "https://github.com/j178/prek",
+      "name": "j178 / prek",
+      "description": "⚡ Better `pre-commit`, re-engineered in Rust",
+      "language": "Rust",
+      "stars_today": "61 stars today"
+    },
+    {
+      "url": "https://github.com/vita-epfl/Stable-Video-Infinity",
+      "name": "vita-epfl / Stable-Video-Infinity",
+      "description": "[ICLR 26] Stable Video Infinity: Infinite-Length Video Generation with Error Recycling",
       "language": "Python",
-      "stars_today": "171 stars today"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-plugins-official",
-      "name": "anthropics / claude-plugins-official",
-      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-      "language": "Shell",
-      "stars_today": "237 stars today"
-    },
-    {
-      "url": "https://github.com/microsoft/PowerToys",
-      "name": "microsoft / PowerToys",
-      "description": "Microsoft PowerToys is a collection of utilities that help you customize Windows and streamline everyday tasks",
-      "language": "C#",
-      "stars_today": "46 stars today"
-    },
-    {
-      "url": "https://github.com/termux/termux-app",
-      "name": "termux / termux-app",
-      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
-      "language": "Java",
-      "stars_today": "41 stars today"
-    },
-    {
-      "url": "https://github.com/openclaw/openclaw",
-      "name": "openclaw / openclaw",
-      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
-      "language": "TypeScript",
-      "stars_today": "14,780 stars today"
-    },
-    {
-      "url": "https://github.com/pedroslopez/whatsapp-web.js",
-      "name": "pedroslopez / whatsapp-web.js",
-      "description": "A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app",
-      "language": "JavaScript",
-      "stars_today": "137 stars today"
-    },
-    {
-      "url": "https://github.com/AlexanderGrooff/mermaid-ascii",
-      "name": "AlexanderGrooff / mermaid-ascii",
-      "description": "Render Mermaid graphs inside your terminal",
-      "language": "Go",
-      "stars_today": "74 stars today"
-    },
-    {
-      "url": "https://github.com/reconurge/flowsint",
-      "name": "reconurge / flowsint",
-      "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
-      "language": "TypeScript",
-      "stars_today": "120 stars today"
-    },
-    {
-      "url": "https://github.com/cline/cline",
-      "name": "cline / cline",
-      "description": "Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.",
-      "language": "TypeScript",
-      "stars_today": "44 stars today"
+      "stars_today": "45 stars today"
     }
   ]
 }
