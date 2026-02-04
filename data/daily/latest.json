@@ -1,90 +1,84 @@
 {
-  "date": "2026-02-03",
+  "date": "2026-02-04",
   "period": "daily",
-  "count": 12,
+  "count": 11,
   "repositories": [
     {
       "url": "https://github.com/thedotmack/claude-mem",
       "name": "thedotmack / claude-mem",
       "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
       "language": "TypeScript",
-      "stars_today": "1,474 stars today"
+      "stars_today": "1,730 stars today"
     },
     {
-      "url": "https://github.com/ThePrimeagen/99",
-      "name": "ThePrimeagen / 99",
-      "description": "Neovim AI agent done right",
-      "language": "Lua",
-      "stars_today": "300 stars today"
-    },
-    {
-      "url": "https://github.com/termux/termux-app",
-      "name": "termux / termux-app",
-      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
-      "language": "Java",
-      "stars_today": "80 stars today"
-    },
-    {
-      "url": "https://github.com/pedramamini/Maestro",
-      "name": "pedramamini / Maestro",
-      "description": "Agent Orchestration Command Center",
-      "language": "TypeScript",
-      "stars_today": "336 stars today"
-    },
-    {
-      "url": "https://github.com/netbirdio/netbird",
-      "name": "netbirdio / netbird",
-      "description": "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
-      "language": "Go",
-      "stars_today": "347 stars today"
-    },
-    {
-      "url": "https://github.com/OpenBMB/ChatDev",
-      "name": "OpenBMB / ChatDev",
-      "description": "ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration",
+      "url": "https://github.com/masoncl/review-prompts",
+      "name": "masoncl / review-prompts",
+      "description": "AI review prompts",
       "language": "Python",
-      "stars_today": "93 stars today"
+      "stars_today": "54 stars today"
     },
     {
-      "url": "https://github.com/autobrr/qui",
-      "name": "autobrr / qui",
-      "description": "A fast, single-binary qBittorrent web UI: manage multiple instances, automate torrent workflows, and cross-seed across trackers.",
-      "language": "Go",
-      "stars_today": "77 stars today"
-    },
-    {
-      "url": "https://github.com/badlogic/pi-mono",
-      "name": "badlogic / pi-mono",
-      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
-      "language": "TypeScript",
-      "stars_today": "878 stars today"
-    },
-    {
-      "url": "https://github.com/VectifyAI/PageIndex",
-      "name": "VectifyAI / PageIndex",
-      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "url": "https://github.com/openai/skills",
+      "name": "openai / skills",
+      "description": "Skills Catalog for Codex",
       "language": "Python",
-      "stars_today": "793 stars today"
+      "stars_today": "377 stars today"
+    },
+    {
+      "url": "https://github.com/automazeio/ccpm",
+      "name": "automazeio / ccpm",
+      "description": "Project management system for Claude Code using GitHub Issues and Git worktrees for parallel agent execution.",
+      "language": "Shell",
+      "stars_today": "123 stars today"
+    },
+    {
+      "url": "https://github.com/obra/superpowers",
+      "name": "obra / superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars_today": "817 stars today"
+    },
+    {
+      "url": "https://github.com/virattt/dexter",
+      "name": "virattt / dexter",
+      "description": "An autonomous agent for deep financial research",
+      "language": "TypeScript",
+      "stars_today": "222 stars today"
     },
     {
       "url": "https://github.com/karpathy/nanochat",
       "name": "karpathy / nanochat",
       "description": "The best ChatGPT that $100 can buy.",
       "language": "Python",
-      "stars_today": "254 stars today"
+      "stars_today": "447 stars today"
     },
     {
       "url": "https://github.com/kovidgoyal/calibre",
       "name": "kovidgoyal / calibre",
       "description": "The official source code repository for the calibre ebook manager",
       "language": "Python",
-      "stars_today": "183 stars today"
+      "stars_today": "141 stars today"
     },
     {
-      "url": "https://github.com/langchain-ai/rag-from-scratch",
-      "name": "langchain-ai / rag-from-scratch",
-      "language": "Jupyter Notebook",
-      "stars_today": "105 stars today"
+      "url": "https://github.com/OpenBMB/ChatDev",
+      "name": "OpenBMB / ChatDev",
+      "description": "ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration",
+      "language": "Python",
+      "stars_today": "476 stars today"
+    },
+    {
+      "url": "https://github.com/pedramamini/Maestro",
+      "name": "pedramamini / Maestro",
+      "description": "Agent Orchestration Command Center",
+      "language": "TypeScript",
+      "stars_today": "269 stars today"
+    },
+    {
+      "url": "https://github.com/vm0-ai/vm0",
+      "name": "vm0-ai / vm0",
+      "description": "the easiest way to run natural language-described workflows automatically",
+      "language": "TypeScript",
+      "stars_today": "62 stars today"
     }
   ]
 }

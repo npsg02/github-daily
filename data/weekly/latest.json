@@ -1,98 +1,91 @@
 {
-  "date": "2026-02-03",
+  "date": "2026-02-04",
   "period": "weekly",
-  "count": 13,
+  "count": 12,
   "repositories": [
     {
       "url": "https://github.com/openclaw/openclaw",
       "name": "openclaw / openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
       "language": "TypeScript",
-      "stars_today": "113,224 stars this week"
+      "stars_today": "91,936 stars this week"
     },
     {
       "url": "https://github.com/asgeirtj/system_prompts_leaks",
       "name": "asgeirtj / system_prompts_leaks",
       "description": "Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini",
       "language": "JavaScript",
-      "stars_today": "4,296 stars this week"
+      "stars_today": "4,323 stars this week"
     },
     {
       "url": "https://github.com/MoonshotAI/kimi-cli",
       "name": "MoonshotAI / kimi-cli",
       "description": "Kimi Code CLI is your next CLI agent.",
       "language": "Python",
-      "stars_today": "1,776 stars this week"
+      "stars_today": "1,813 stars this week"
     },
     {
       "url": "https://github.com/badlogic/pi-mono",
       "name": "badlogic / pi-mono",
       "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
       "language": "TypeScript",
-      "stars_today": "3,032 stars this week"
+      "stars_today": "3,486 stars this week"
     },
     {
       "url": "https://github.com/modelcontextprotocol/ext-apps",
       "name": "modelcontextprotocol / ext-apps",
       "description": "Official repo for spec & SDK of MCP Apps protocol - standard for UIs embedded AI chatbots, served by MCP servers",
       "language": "TypeScript",
-      "stars_today": "835 stars this week"
+      "stars_today": "763 stars this week"
     },
     {
       "url": "https://github.com/ThePrimeagen/99",
       "name": "ThePrimeagen / 99",
       "description": "Neovim AI agent done right",
       "language": "Lua",
-      "stars_today": "1,819 stars this week"
-    },
-    {
-      "url": "https://github.com/NevaMind-AI/memU",
-      "name": "NevaMind-AI / memU",
-      "description": "Memory for 24/7 proactive agents like openclaw (moltbot, clawdbot).",
-      "language": "Python",
-      "stars_today": "2,084 stars this week"
+      "stars_today": "2,027 stars this week"
     },
     {
       "url": "https://github.com/microsoft/BitNet",
       "name": "microsoft / BitNet",
       "description": "Official inference framework for 1-bit LLMs",
       "language": "Python",
-      "stars_today": "1,801 stars this week"
+      "stars_today": "1,876 stars this week"
+    },
+    {
+      "url": "https://github.com/NevaMind-AI/memU",
+      "name": "NevaMind-AI / memU",
+      "description": "Memory for 24/7 proactive agents like openclaw (moltbot, clawdbot).",
+      "language": "Python",
+      "stars_today": "2,233 stars this week"
     },
     {
       "url": "https://github.com/VectifyAI/PageIndex",
       "name": "VectifyAI / PageIndex",
       "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
       "language": "Python",
-      "stars_today": "2,794 stars this week"
+      "stars_today": "2,818 stars this week"
     },
     {
       "url": "https://github.com/steipete/Peekaboo",
       "name": "steipete / Peekaboo",
       "description": "Peekaboo is a macOS CLI & optional MCP server that enables AI agents to capture screenshots of applications, or the entire system, with optional visual question answering through local or remote AI models.",
       "language": "Swift",
-      "stars_today": "461 stars this week"
+      "stars_today": "467 stars this week"
     },
     {
-      "url": "https://github.com/supermemoryai/supermemory",
-      "name": "supermemoryai / supermemory",
-      "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
-      "language": "TypeScript",
-      "stars_today": "1,225 stars this week"
+      "url": "https://github.com/microsoft/agent-lightning",
+      "name": "microsoft / agent-lightning",
+      "description": "The absolute trainer to light up AI agents.",
+      "language": "Python",
+      "stars_today": "1,783 stars this week"
     },
     {
-      "url": "https://github.com/remotion-dev/remotion",
-      "name": "remotion-dev / remotion",
-      "description": "🎥 Make videos programmatically with React",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "name": "thedotmack / claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
       "language": "TypeScript",
-      "stars_today": "3,050 stars this week"
-    },
-    {
-      "url": "https://github.com/Draculabo/AntigravityManager",
-      "name": "Draculabo / AntigravityManager",
-      "description": "Antigravity Manager is a powerful Electron-based application designed to manage accounts and processes for the Antigravity application. It provides a seamless interface for switching accounts, backing up progress, and controlling the application lifecycle.",
-      "language": "TypeScript",
-      "stars_today": "252 stars this week"
+      "stars_today": "4,167 stars this week"
     }
   ]
 }
