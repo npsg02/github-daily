@@ -1,133 +1,126 @@
 {
-  "date": "2026-02-04",
+  "date": "2026-02-05",
   "period": "monthly",
-  "count": 18,
+  "count": 17,
   "repositories": [
     {
       "url": "https://github.com/openclaw/openclaw",
       "name": "openclaw / openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
       "language": "TypeScript",
-      "stars_today": "154,681 stars this month"
-    },
-    {
-      "url": "https://github.com/frankbria/ralph-claude-code",
-      "name": "frankbria / ralph-claude-code",
-      "description": "Autonomous AI development loop for Claude Code with intelligent exit detection",
-      "language": "Shell",
-      "stars_today": "5,935 stars this month"
+      "stars_today": "160,374 stars this month"
     },
     {
       "url": "https://github.com/obra/superpowers",
       "name": "obra / superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "stars_today": "29,873 stars this month"
+      "stars_today": "30,680 stars this month"
     },
     {
       "url": "https://github.com/anomalyco/opencode",
       "name": "anomalyco / opencode",
       "description": "The open source coding agent.",
       "language": "TypeScript",
-      "stars_today": "50,859 stars this month"
+      "stars_today": "50,686 stars this month"
+    },
+    {
+      "url": "https://github.com/frankbria/ralph-claude-code",
+      "name": "frankbria / ralph-claude-code",
+      "description": "Autonomous AI development loop for Claude Code with intelligent exit detection",
+      "language": "Shell",
+      "stars_today": "5,947 stars this month"
     },
     {
       "url": "https://github.com/anthropics/skills",
       "name": "anthropics / skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "stars_today": "29,994 stars this month"
-    },
-    {
-      "url": "https://github.com/code-yeongyu/oh-my-opencode",
-      "name": "code-yeongyu / oh-my-opencode",
-      "description": "The Best Agent Harness. Meet Sisyphus: The Batteries-Included Agent that codes like you.",
-      "language": "TypeScript",
-      "stars_today": "22,582 stars this month"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-plugins-official",
-      "name": "anthropics / claude-plugins-official",
-      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-      "language": "Shell",
-      "stars_today": "4,923 stars this month"
+      "stars_today": "30,308 stars this month"
     },
     {
       "url": "https://github.com/VectifyAI/PageIndex",
       "name": "VectifyAI / PageIndex",
       "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
       "language": "Python",
-      "stars_today": "8,412 stars this month"
+      "stars_today": "8,687 stars this month"
+    },
+    {
+      "url": "https://github.com/code-yeongyu/oh-my-opencode",
+      "name": "code-yeongyu / oh-my-opencode",
+      "description": "The Best Agent Harness. Meet Sisyphus: The Batteries-Included Agent that codes like you.",
+      "language": "TypeScript",
+      "stars_today": "21,888 stars this month"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "name": "anthropics / claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Shell",
+      "stars_today": "4,893 stars this month"
     },
     {
       "url": "https://github.com/remotion-dev/remotion",
       "name": "remotion-dev / remotion",
       "description": "🎥 Make videos programmatically with React",
       "language": "TypeScript",
-      "stars_today": "9,643 stars this month"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code",
-      "name": "anthropics / claude-code",
-      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "language": "Shell",
-      "stars_today": "13,269 stars this month"
-    },
-    {
-      "url": "https://github.com/asgeirtj/system_prompts_leaks",
-      "name": "asgeirtj / system_prompts_leaks",
-      "description": "Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini",
-      "language": "JavaScript",
-      "stars_today": "5,174 stars this month"
-    },
-    {
-      "url": "https://github.com/lbjlaq/Antigravity-Manager",
-      "name": "lbjlaq / Antigravity-Manager",
-      "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
-      "language": "Rust",
-      "stars_today": "13,972 stars this month"
+      "stars_today": "9,839 stars this month"
     },
     {
       "url": "https://github.com/badlogic/pi-mono",
       "name": "badlogic / pi-mono",
       "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
       "language": "TypeScript",
-      "stars_today": "4,961 stars this month"
+      "stars_today": "5,452 stars this month"
     },
     {
-      "url": "https://github.com/Lissy93/web-check",
-      "name": "Lissy93 / web-check",
-      "description": "🕵️‍♂️ All-in-one OSINT tool for analysing any website",
-      "language": "TypeScript",
-      "stars_today": "4,735 stars this month"
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "name": "asgeirtj / system_prompts_leaks",
+      "description": "Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini",
+      "language": "JavaScript",
+      "stars_today": "5,373 stars this month"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code",
+      "name": "anthropics / claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Shell",
+      "stars_today": "13,326 stars this month"
+    },
+    {
+      "url": "https://github.com/lbjlaq/Antigravity-Manager",
+      "name": "lbjlaq / Antigravity-Manager",
+      "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
+      "language": "Rust",
+      "stars_today": "13,544 stars this month"
+    },
+    {
+      "url": "https://github.com/MiroMindAI/MiroThinker",
+      "name": "MiroMindAI / MiroThinker",
+      "description": "MiroThinker is an open source deep research agent optimized for research and prediction. It achieves a 80.8% Avg@8 score on the challenging GAIA benchmark.",
+      "language": "Python",
+      "stars_today": "4,660 stars this month"
     },
     {
       "url": "https://github.com/bytedance/UI-TARS-desktop",
       "name": "bytedance / UI-TARS-desktop",
       "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
       "language": "TypeScript",
-      "stars_today": "4,955 stars this month"
-    },
-    {
-      "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
-      "name": "DataTalksClub / data-engineering-zoomcamp",
-      "description": "Data Engineering Zoomcamp is a free 9-week course on building production-ready data pipelines. The next cohort starts in January 2026. Join the course here 👇🏼",
-      "language": "Jupyter Notebook",
-      "stars_today": "3,867 stars this month"
+      "stars_today": "5,636 stars this month"
     },
     {
       "url": "https://github.com/ComposioHQ/awesome-claude-skills",
       "name": "ComposioHQ / awesome-claude-skills",
       "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
       "language": "Python",
-      "stars_today": "15,701 stars this month"
+      "stars_today": "15,763 stars this month"
     },
     {
-      "url": "https://github.com/steveyegge/beads",
-      "name": "steveyegge / beads",
-      "description": "Beads - A memory upgrade for your coding agent",
-      "language": "Go",
-      "stars_today": "6,910 stars this month"
+      "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+      "name": "DataTalksClub / data-engineering-zoomcamp",
+      "description": "Data Engineering Zoomcamp is a free 9-week course on building production-ready data pipelines. The next cohort starts in January 2026. Join the course here 👇🏼",
+      "language": "Jupyter Notebook",
+      "stars_today": "3,910 stars this month"
     }
   ]
 }
